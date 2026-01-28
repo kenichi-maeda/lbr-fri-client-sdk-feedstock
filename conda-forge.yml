@@ -4,3 +4,11 @@ github:
 conda_build:
   error_overlinking: true
 conda_forge_output_validation: true
+bot:
+  abi_migration_branches:
+    - "v1.11.x"
+    - "v1.14.x"
+    - "v1.16.x"
+    - "v1.17.x"
+    - "v2.5.x"
+    - "v2.7.x"
