@@ -11,6 +11,8 @@ source:
 
 build:
   number: 0
+  run_exports:
+    - {{ pin_subpackage('lbr-fri-client-sdk', max_pin='x.x') }}
   script: |
     python "%RECIPE_DIR%\\extract_kuka_license.py"  # [win]
     python "${RECIPE_DIR}/extract_kuka_license.py"  # [not win]
