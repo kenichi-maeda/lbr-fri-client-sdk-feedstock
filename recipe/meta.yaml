@@ -1,5 +1,5 @@
 {% set name = "lbr-fri-client-sdk" %}
-{% set version = "1.15" %}
+{% set version = "1.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/lbr-stack/fri/archive/refs/heads/fri-{{ version }}.tar.gz
-  sha256: 9bb4578864a8c92c28a798860e2d43c25b9d94841aa7527e40884c2899ce939c
+  sha256: 90b3cdc58f85dc017473e5be0ade237a05b374b63deca54cb8f460313e9f26bb 
 
 build:
   number: 0
